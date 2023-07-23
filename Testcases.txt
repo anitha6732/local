@@ -1,0 +1,53 @@
+Test scenarios for wattsapp:
+
+check for installation of application in playstore
+check the create account functionality
+check for the contacts are displayed or not
+check add profile picture option
+check sending and receiving message options are working
+check audio call and vedio call options
+check status is updated day to day or not
+create a group option is working or not
+check delete account functionality
+
+Test cases for wattsapp:
+1.check for installation of application in playstore
+	Firstly check that the Whatsapp application is available for download on play store.
+	When you click on the install button, the application gets installed.
+	After the installation is finished, a Whatsapp icon should appear.
+	Click on that icon and check that the application gets opened or not.
+2.check the create account functionality
+	When you open the application, does it ask you to enter your phone number?
+	Verify that if the user enters the phone number exceeds ten digits, It displays an error message.
+	If the user enters a correct phone number, a verification code is sent to the entered/registered number.
+	User cannot register an existing number for creating a new Whatsapp account.
+ 	All contact details saved in the user’s phone/account gets imported to Whatsapp contact list.
+3.check for the contacts are displayed or not
+	When the user tries to upload profile photo/status, does it gets uploaded successfully?
+4.check sending and receiving message options are working
+	Verify that the user can send messages to an individual contact or not.
+	Check that user can send images to contacts or not.
+5.check audio call and vedio call options
+	Check that the user can send Audios/Videos to the contacts or not.
+	Verify that the user can check the message details like the message delivered time and reading time.
+	Check that the user can call and receive Whatsapp Audio and Video calls.
+	Verify that the user can block any contact.
+	Check that Blocked contact user doesn’t receive any message or call from that person.
+	Check that user is able to set the status or not on the Whatsapp app.
+6.create a group option is working or not
+	Check that the user can create a Whatsapp group.
+	The user can set a name for the created group.
+	Check that the user can add and save the group description.
+	Verify that the user can make multiple people as group Admin.
+	Check that only group admins can add people to the group.
+	The admin can delete users from this group.
+7.check delete account functionality
+
+Negative Test cases of Whatsapp:
+
+You can try to send more than 30 images at a time.
+Verify that are you able to send large videos(exceeds limited size) or not.
+Try to send hundreds of messages at the same time to a person and then check the behaviour of this application.
+Try to register with the same number on two different devices at the same time.
+Check that are you able to forward a message to more than five people.
+Try to add more than 256 members in a group.
